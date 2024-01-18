@@ -1,0 +1,76 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,100;0,300;0,400;0,500;0,700;1,400&family=Salsa&display=swap');
+@import url("https://cdn.jsdelivr.net/npm/bootstrap-icons@1.11.3/font/bootstrap-icons.min.css");
+/* GENERALI */
+
+html, body, #main-container{
+  background-color: rgb(206, 221, 227);
+  height: 100%;
+}
+
+#root{
+  background-color: rgb(206, 221, 227);
+  font-family: "Roboto", sans-serif;
+  height: 100%;
+  color: white;
+}
+.spinner{
+  width: 100%;
+  padding: 3em;
+  display: flex;
+  justify-content: center;
+}
+
+#brand{
+  font-family: salsa;
+  color: black;
+  font-size: 3.5em;
+  margin-top: 1em;
+  text-align: center;
+  border-right: 5px solid black;
+  border-left: 5px solid black;
+  border-radius: 0.2em;
+}
+
+
+section{
+  background-color: rgb(39, 38, 38);
+  border-radius: 1em;
+  overflow: hidden;
+}
+#forecast-container{
+  background-color: rgb(83, 89, 93);
+  border-radius: 1em;
+  margin: 2em 1em;
+  padding: 1em;
+  text-align: center;
+}
+
+.col-12 h1{
+  font-size: 1.3em;
+  text-transform: uppercase;
+}
+.temperatura{
+  background-color: rgb(82, 133, 155);
+}
+.temp{
+  font-size: 4em;
+}
+.temp-min-max{
+  font-size: 0.9em;
+}
+
+#seleziona-luogo{
+  background-color: rgba(0, 0, 0, 0.188);
+  color: rgb(45, 45, 45);
+  padding: 1em;
+  border-radius: 1em;
+}
+
+#seleziona-luogo button{
+  width: 100%;
+}
+/* FOOTER */
+
+footer{
+  background-color: rgb(125, 161, 177);
+}
